@@ -26,7 +26,8 @@
         {
             while (startElapsedTime < startDuration)
             {
-                this.gameObject.transform.localScale = Vector3.Lerp(startScale, endScale, (startElapsedTime / startDuration));
+                //this.gameObject.transform.localScale = Vector3.Lerp(startScale, endScale, (startElapsedTime / startDuration));
+                //this.gameObject.transform.Rotate();
                 startElapsedTime += Time.deltaTime;
 
                 yield return null;
